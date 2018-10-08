@@ -29,7 +29,7 @@ function harmlessRansomNote(noteText, magazineText) {
 }
 
 console.log(harmlessRansomNote('this is a secret note for you from ' +
-    'a secret admirer', 'puerto rico is a place of great ' +
+    'a secret admirer admirer', 'puerto rico is a place of great ' +
     'wonder and excitement it has many secret waterfall locations ' +
     'that i am an admirer of you must hike quite a distance to ' +
     'find the secret places as they are far from populated areas ' +
