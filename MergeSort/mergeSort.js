@@ -46,7 +46,8 @@ function merge(array1, array2) {
         result.push(minElem);
     }
 
-    /** if array1.length is still not empty after the while loop, then concat the left over array element to results array **/
+    /** if array1.length is still not empty after the while loop, then concat the left over array element to
+     *  results array **/
     if(array1.length) {
         result = result.concat(array1);
     }else{
