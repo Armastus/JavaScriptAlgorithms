@@ -7,7 +7,7 @@ function rotLeft(arrSize, rotNum) {
     }
 
     for(let yy = 0; yy < arr.length; yy++) {
-        finalRot[yy] = arr[(yy + rotNum) % 5];
+        finalRot[yy] = arr[(yy + rotNum) % arrSize];
     }
 
     return finalRot;
