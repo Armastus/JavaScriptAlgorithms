@@ -12,10 +12,12 @@ function reverseArrayInPlace(arr) {
         6 - 4 = element 3
         etc..
          */
-        console.log(arr.length-1 -ii + " element of the array");
+        console.log(arr[ii] + " element of the array");
         //*****************************
         arr[arr.length - 1 -ii] = tempVar;
+        // console.log(arr);
     }
+    // console.log(arr);
     return arr;
 }
 

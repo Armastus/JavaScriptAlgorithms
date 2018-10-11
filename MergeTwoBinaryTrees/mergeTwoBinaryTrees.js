@@ -5,6 +5,7 @@ function sortArray(arr) {
         for(var jj = 0; jj < ii; jj++){
             if(arr[jj] > arr[jj + 1]){
                 tmp = arr[jj];
+                console.log(tmp);
                 arr[jj] = arr[jj + 1];
                 arr[jj + 1] = tmp;
             }

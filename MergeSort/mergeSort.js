@@ -12,7 +12,7 @@ function mergeSort(arr) {
     } // base case
 
     // recursive case below
-    var middleIndex = Math.floor(arr.length / 2);
+    var middleIndex = Math.ceil(arr.length / 2);
     var firstHalf = arr.slice(0, middleIndex);
     var secondHalf = arr.slice(middleIndex);
 
